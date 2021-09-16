@@ -25,6 +25,8 @@ int main(){
         } 
     }
 
+    //this is a test file
+
     if (isSorted == 1){
         std::cout<< "\nSorting function works.\n";
     } else {
