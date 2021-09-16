@@ -16,3 +16,23 @@ int *sort(int arr[], int size) {
 
   return arr;
 }
+
+//takes user input
+int *makeArray(int arr[],int size) {
+  
+    std::cout<<"Please input "<<size<<" integers\n";
+
+    int count = 0;
+
+    int userInput = 0;
+
+    while (count < size){
+      std::cin>>userInput;
+      
+      arr[count] = userInput;
+
+      count++;
+    }
+
+     return arr;
+}
