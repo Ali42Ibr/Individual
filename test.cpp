@@ -1,9 +1,11 @@
-#include <stdio.h> 
+
 #include "sorting.cpp" 
 
 //test function
 
 int main(){
+
+    #include <stdio.h> 
 
     //testing the sorting function
     int unsortedArray [] = {80,22,44,13};
@@ -44,4 +46,6 @@ int main(){
     }
 
     return 0;
+
+    
 }

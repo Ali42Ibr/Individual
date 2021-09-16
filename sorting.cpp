@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 //sort function
 int *sort(int arr[], int size) {
   
@@ -35,4 +36,19 @@ int *makeArray(int arr[],int size) {
     }
 
      return arr;
+}
+
+int main() {
+    
+    int arr[4];
+    int *unsortedArray = makeArray(arr,4);
+
+    int *ptr = sort(unsortedArray, 4);
+
+    for (int i = 0; i < 4; ++i) {
+        std::cout << ptr[i] << ", ";
+    }
+
+
+    return 0;
 }
