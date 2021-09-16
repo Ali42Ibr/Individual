@@ -36,6 +36,8 @@ int main(){
 
     int originalSize = 4;
 
+    //this is the test file
+
     int testArray[originalSize];
     int *test = makeArray(testArray,4);
 
